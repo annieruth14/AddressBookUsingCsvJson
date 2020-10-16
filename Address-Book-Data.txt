@@ -1,0 +1,3 @@
+Book3 :[Deepak Saraogi Shantinagar Blore Karnataka 765478 98734567 deepak@gmail.com]
+Book1 :[Annie Ruth NBU Silla WB 456789 9876543 annie@gmail.com, Neha Clare NBU Blore Karnataka 765342 987656678 clare@hotmail.com]
+Book2 :[Rita Deb Howrah Kolkata WB 97656 988875722 rita@gmail.com, Raj Singh NBU Silla WB 8754 34567775 raj@gmail.com, Ritu Kumar Kol Kolkata WB 76578 3455677 ritu@gmail.com]
