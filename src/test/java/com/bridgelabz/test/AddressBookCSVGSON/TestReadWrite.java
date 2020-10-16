@@ -7,6 +7,7 @@ import org.junit.Test;
 
 public class TestReadWrite {
 	ReadWriteUsingCsv readWriteCSV = new ReadWriteUsingCsv();
+	ReadWriteUsingJson readWriteJSON = new ReadWriteUsingJson();
 	
 	@Test
 	public void givenString_whenAddedToCsv_shouldReturnTrue() throws IOException {
@@ -17,9 +18,18 @@ public class TestReadWrite {
 	@Test
 	public void givenCsvFile_whenRead_shouldReturnNoOfEntries() throws IOException {
 		int count = readWriteCSV.readFromCsv();
-		System.out.println(count);
 		Assert.assertEquals(count, 5);
 	}
 	
+	@Test
+	public void givenString_whenAddedToJson_shouldReturnTrue() throws IOException {
+		boolean result = readWriteJSON.writeIntoJson();
+		Assert.assertTrue(result);
+	}
 	
+	@Test
+	public void givenJsonFile_whenRead_shouldReturnNoOfEntries() throws IOException {
+		int countEntries = readWriteJSON.readFromJson();
+		Assert.assertEquals(countEntries, 5);
+	}
 }

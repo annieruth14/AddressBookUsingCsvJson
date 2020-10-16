@@ -14,6 +14,7 @@ import com.opencsv.bean.CsvToBeanBuilder;
 public class ReadWriteUsingCsv {
 	private static final String CSV_FILE_PATH = "users-write.csv";
 	public boolean writeIntoCsv() throws IOException {
+		boolean result = false;
 		try (
 				Writer writer = Files.newBufferedWriter(Paths.get(CSV_FILE_PATH ));
 				 CSVWriter csvWriter = new CSVWriter(writer,
@@ -31,7 +32,8 @@ public class ReadWriteUsingCsv {
             csvWriter.writeNext(new String[]{"Kiran", "Bed", "Shantinagar" , "Kurseong" , "AP" , "45336" , "899946132", "kiran6@gmail.com"});
             csvWriter.writeNext(new String[]{"Ankita", "Sarkar", "Sevoke" , "Mirik" , "WB" , "74556" , "8945613555", "ankita2@gmail.com"});
             csvWriter.writeNext(new String[]{"Portia", "Das", "Silla" , "Siliguri" , "JK" , "7867888" , "894444432", "portia@gmail.com"});
-            return true;
+            result = true;
+            return result;
 		}
 	}
 	

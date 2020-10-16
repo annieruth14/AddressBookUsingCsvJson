@@ -1,0 +1,52 @@
+[
+  {
+    "first_name": "Annie",
+    "last_name": "Ruth",
+    "address": "NBU",
+    "city": "Siliguri",
+    "state": "WB",
+    "zip": 789456,
+    "phone": 89613112,
+    "email": "ruth3@gmail.com"
+  },
+  {
+    "first_name": "Neha",
+    "last_name": "Clare",
+    "address": "Kadamtala",
+    "city": "Mirik",
+    "state": "TN",
+    "zip": 34567,
+    "phone": 894561355,
+    "email": "neha@gmail.com"
+  },
+  {
+    "first_name": "Kiran",
+    "last_name": "Bed",
+    "address": "Shantinagar",
+    "city": "Kurseong",
+    "state": "AP",
+    "zip": 45336,
+    "phone": 899946132,
+    "email": "kiran6@gmail.com"
+  },
+  {
+    "first_name": "Ankita",
+    "last_name": "Sarkar",
+    "address": "Sevoke",
+    "city": "Mirik",
+    "state": "WB",
+    "zip": 74556,
+    "phone": 894561555,
+    "email": "ankita2@gmail.com"
+  },
+  {
+    "first_name": "Portia",
+    "last_name": "Das",
+    "address": "Silla",
+    "city": "Siliguri",
+    "state": "JK",
+    "zip": 7867888,
+    "phone": 894444432,
+    "email": "portia@gmail.com"
+  }
+]
